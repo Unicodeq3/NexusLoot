@@ -1,0 +1,68 @@
+.container {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.id {
+  margin-right: 10px;
+}
+
+.loot-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.loot-btn:hover {
+  background-color: #3e8e41;
+}
+
+#clear-btn, #refresh-btn {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#clear-btn:hover, #refresh-btn:hover {
+  background-color: #006380;
+}
+
+#loot-list li {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
