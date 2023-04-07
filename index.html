@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Список предметов</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			background-color: #f5f5f5;
+		}
+
+		.container {
+			background-color: #ffffff;
+			border-radius: 10px;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 600px;
+			overflow: hidden;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+
+		li {
+			padding: 10px;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			margin-bottom: 5px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		input[type="text"] {
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+			outline: 2px solid #c7c7c7;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		input[type="text"]:focus {
+outline: 2px solid #4CAF50;
+}
+
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 10px;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			margin-bottom: 5px;
+		}
+
+		button {
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Список предметов</h1>
+		<label>Фильтр: <input type="text" id="filter"></label>
+		<ul id="items">
+			<li>Предмет 1</li>
+			<li>Предмет 2</li>
+			<li>Предмет 3</li>
+		</ul>
+		<script src="script.js"></script>
+	</div>
+</body>
+
+</html>
